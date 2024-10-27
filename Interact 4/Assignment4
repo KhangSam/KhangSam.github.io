@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khang Sam's website</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #318600;
+            color: #ffea00;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005d09;
+        }
+        nav a {
+            color: rgb(229, 255, 0);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #114900;
+            color: rgb(225, 255, 0);
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Khang Sam's Website</h1>
+        <p>Minimalist Interactives and Environments</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Videos</a>
+        
+    </nav>
+
+    <!-- Main Content -->
+    <section id="home" class="container">
+        <h2>Home</h2>
+        <p>This is where I show my projects.</p>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>My mental is unstable and I'm into Gothic, Rock (Korn) and Tabletop (Warhammer 40K).</p>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Videos</h2>
+            <h3>The Horror Story</h3>
+            <video controls src="Twine gameplay.mp4" width="500"></video>
+            <p>The Horror Story is a funny point of view when I as a horror movie and book enthusiast react to bad writing from horror books and movies.</p>
+            <h3>The Bed</h3>
+            <video controls src="The Bed.mp4" width="500"></video>
+            <p>Life is vulnerable and precious, so I want to appreciate the people around me when it is too late. </p>
+            <h3>The Thoughts</h3>
+            <video controls src="Thoughts.mp4" width="500"></video>
+            <p>As a person who has difficulties with communication and social anxiety, I found shoes are my escape to reality, and "The Thoughts" basically speak up my inner thoughts.</p>
+            <h3>The Unholy</h3>
+            <video controls src="The Unholy.mp4" width="500"></video>
+            <p>This is like part 2 of "The Thoughts", as a person who grew up in a Catholic family, I can't fit in due to my unusual way of thinking and I'm also a lefty which according to the Catholic school where I used to study, I was considered as "slow" and hard to educate. That's why I found the church or anything related to Catholic a bit unpleasant.</p>
+            <h3> Sam Is Your Good Friend</h3>
+            <video controls src="SamIsYourGoodFriend.mp4" width="500"></video>
+            <p>I can't fit in and friendship is something I consider as expensive.</p>
+            <h3> Goth Girl</h3>
+            <video controls src="Goth Girl.mp4" width="500"></video>
+            <p>I like Goth Girls</p>
+            <P>:3</P>
+            <p>rfdggkkkk</p>
+
+
+    
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>Email: s3892486@rmit.edu.vn</p>
+    </footer>
+
+</body>
+</html>
